@@ -1,0 +1,14 @@
+{
+  "emerging_technology": "Model Context Protocol (MCP) and MCP server implementations exposing existing business capabilities to tool-using AI.",
+  "intended_application": "The same frontline banking assistant retrieves customer information and promotion eligibility but can also submit promotion enrollments and update customer records through the same legacy banking application. Banker approval is assumed before each write; its adequacy is not established.",
+  "organization": "Hypothetical established retail bank with a branch network; not a factual description of a named bank.",
+  "industry_sector": "Retail banking.",
+  "business_need": "Extend branch assistance from information retrieval to completing selected promotion and record-maintenance duties, without changing MCP or the bank’s conservative posture.",
+  "users_stakeholders": "Branch bankers, walk-in customers, operations staff, legacy-system owners, information security and compliance teams.",
+  "adoption_posture": "Conservative/risk-averse; evaluate a limited pilot before broader rollout. Case assumption.",
+  "capabilities_constraints": "An existing legacy application already provides customer and promotion functions. Whether approved APIs, other callable interfaces, authentication delegation, and audit facilities exist is unknown. Limited pilot resources are assumed; no performance metrics are supplied.",
+  "risk_consequence_context": "All read-only privacy and accuracy risks plus incorrect enrollment, duplicate writes, inappropriate record changes, and customer-impacting commitments. Transaction controls and recovery behavior are unknown. No autonomous money movement is contemplated.",
+  "management_question": "How did MCP emerge from existing integration technologies and the needs of tool-using AI, and what does REST’s history suggest about the durability of MCP’s role in enterprise applications? In particular, what does that history suggest about investing in a replaceable MCP adapter over existing banking capabilities rather than relying only on direct API integrations?",
+  "time_horizon": "Hypothetical 6–12-month pilot planning horizon with a 3-year integration maintenance perspective; not an adoption forecast.",
+  "additional_context": "Analysis date: 2026-10-05. All organizational details beyond the user-supplied branch-banking workflow are explicit test assumptions. No customer records are provided. Assess creation and architectural rationale; do not make a final procurement, compliance, or production-readiness decision. This is a controlled contrast: hold MCP, bank, industry, posture, and time horizon constant; change read-only versus write-enabled workflow and its consequences. Do not present approval alone as making writes safe."
+}

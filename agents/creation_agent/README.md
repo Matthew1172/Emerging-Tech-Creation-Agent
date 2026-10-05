@@ -1,6 +1,6 @@
 # Lab 2 Emerging Technology Creation Agent
 
-Version: 0.1-lab2. Status: specialized and ready for ChatGPT runs; no runtime results yet.
+Version: 0.2-lab2. Status: preliminary independent Codex runs, revision and retests complete; course-required ChatGPT runs pending.
 
 The agent examines MCP's creation and uses REST's architectural history as a bounded comparison. It does not implement an MCP server or connect to real banking systems.
 
@@ -19,3 +19,7 @@ python3 tools/build_prompt.py --agent agents/creation_agent --case agents/creati
 Paste the entire generated packet into ChatGPT, preferably in a separate conversation for each case, with browsing available for source verification. Save JSON-only outputs as responses/primary_response.json, responses/contrast_1_response.json, and optionally responses/contrast_2_response.json. Run the included validator on each output. The common validator is a basic structural check, not a factual assessment.
 
 Record the actual stable/changed findings, preserve a weak output before revision, revise specialist instructions and metadata version, rebuild packets, and rerun the same cases. Finish the Agent Record with your own judgment. No API key is required. FROZEN CORE and shared tools are unchanged.
+
+## Preliminary Codex evidence
+
+`responses/codex_preliminary/` contains six actual outputs (three cases, two instruction versions) and provenance notes. `records/versions/v0_1/` preserves the original configuration. `records/preliminary_test_comparison.md` documents semantic stability, contextual change, the preserved retail failure, and observed retest improvement. `records/validation_results.md` records all six schema checks. These preliminary runs do not replace the specified ChatGPT step, and the student must provide an independent judgment.
